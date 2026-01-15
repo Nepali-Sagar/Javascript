@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Console Calculator</title>
+  </head>
+  <body>
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 5em;
+        font-family: Tektur;
+      }
+
+      ol {
+        font-size: 2em;
+        font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      button {
+        width: 300px;
+        height: 60px;
+        font-size: 2em;
+        background-color: orange;
+        font-family: "Courier New", Courier, monospace;
+      }
+      button:hover{
+        background-color: black;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+
+    <h1>Calculator</h1>
+    <ol>
+      <li>press the button "ON"</li>
+      <li>prompt will appear, fill those instraction and put the value</li>
+      <li>click 'OK' after each promot or else it will read it EMPTY</li>
+      <li>you can see the output in alert</li>
+    </ol>
+
+    <button  onclick="calculator()">ON</button>
+    <script src="script.js"></script>
+  </body>
+</html>
