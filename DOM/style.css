@@ -1,0 +1,39 @@
+body {
+  background-color: grey;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+
+  justify-content: end;
+}
+
+.createBtn,
+.deleteBtn {
+  height: 50px;
+  width: 100px;
+  font-size: 1.5em;
+}
+
+.content {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: darkolivegreen;
+  border: 5px solid black;
+}
+
+.card:hover{
+    background-color: red;
+}
+
+
